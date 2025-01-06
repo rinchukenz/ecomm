@@ -1,0 +1,29 @@
+.descbox{
+    margin: 50px;
+    
+    
+    
+    .desrev{
+        button{
+            width: 130px;
+            height: 35px;
+            background: rgb(253, 249, 249);
+            border: none;
+            border: 1px solid grey;
+            cursor: pointer;
+        }
+        .desrev:hover{
+            button{
+                background: rgb(223, 14, 14);
+            }
+            
+        }
+    }
+    .box{
+        outline: 1px solid gray;
+        background: rgb(253, 249, 249);
+        padding-top: 5px;
+        padding-left: 10px;
+        padding-bottom: 10px;
+    }
+}

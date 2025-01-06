@@ -1,0 +1,26 @@
+.relatedproducts{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    hr{
+        width: 150px;
+        height: 2px;
+        margin-top: -5px;
+        background: black;
+        border-radius: 10px;
+       }
+    
+       h1{
+        font-family: sans-serif;
+        font-weight: 500;
+       }
+
+    .rp-items{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        gap: 25px;
+        margin-top: 20px;
+        margin-bottom: 50px;
+    }
+}

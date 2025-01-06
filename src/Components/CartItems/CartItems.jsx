@@ -36,7 +36,7 @@ function CartItems() {
 
         <div className="cartitems-down">
             <div className="cartitems-total">
-                <h1>cart Totals</h1>
+                <h1>Cart Total</h1>
                 <div className="div">
                     <div className="cti">
                         <p>Subtotal</p>
